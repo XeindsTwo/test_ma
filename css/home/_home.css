@@ -1,0 +1,31 @@
+.home {
+    margin-bottom: 136px;
+}
+
+.home__inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.home__content {
+    max-width: 575px;
+    width: 100%;
+}
+
+.home__title {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 0.97;
+    margin-bottom: 32px;
+}
+
+.home__text p {
+    color: var(--main-gray);
+    font-size: 32px;
+    line-height: 1.17;
+}
+
+.home__text p:not(:last-child) {
+    margin-bottom: 28px;
+}
