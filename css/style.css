@@ -8,3 +8,6 @@
 @import 'home/_home.css';
 
 /* Амир и Паша */
+.main-tag {
+    display: none;
+}
