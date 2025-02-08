@@ -14,3 +14,19 @@
   align-items: center;
   gap: 30px;
 }
+
+.header__link {
+  font-size: 21px;
+}
+
+@media (max-width: 920px) {
+  .header {
+    margin: 35px 0 100px;
+  }
+}
+
+@media (max-width: 610px) {
+  .header {
+    margin-bottom: 80px;
+  }
+}
